@@ -1,0 +1,1 @@
+{_x removeWeaponTurret ["LaserDesignator_mounted", [0]];} forEach [uav, sdv1, sdv2, sdv3];

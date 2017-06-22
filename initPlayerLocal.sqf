@@ -1,0 +1,1 @@
+w_teleport call FETT_fnc_W_addTeleport;
