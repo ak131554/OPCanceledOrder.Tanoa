@@ -1,7 +1,14 @@
 #include "W_Teleporter\dialog.hpp"
 
 class CfgFunctions {
-	#include "W_Teleporter\CfgFunctions.hpp"
+#include "W_Teleporter\CfgFunctions.hpp"
+	class spec_scripts {
+        tag = "Spec";
+        class init {
+            file = "scripts";
+            class sniper {};
+        };
+    };
 };
 
 // Einstellbar via: Attributes -> Multiplayer -> Game Type
